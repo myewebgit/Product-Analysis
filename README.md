@@ -7,8 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you will have:
 
 ### `Project Name:` My Book Shop
-### `Project Link:`
-### `Project Name:`
+### `Project Link:` https://github.com/programming-hero-web-course-4/product-analysis-website-myewebgit
+### `About My Projects:`
 
 
 ### `npm start`
