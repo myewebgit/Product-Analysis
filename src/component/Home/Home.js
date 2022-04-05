@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, CardGroup, Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 
 import './Home.css'
 
@@ -10,11 +10,14 @@ const Home = () => {
             <Container>
             <Row>
            
-            <h1 className='Title'> Welcome to my book Shop</h1>
-            <h1 className='Title'> Welcome to my book Shop</h1>
-    <Col xs={6}><p>Léman Manhattan is an international learning community committed to educating, empowering, and inspiring students from early childhood through 12th Grade to become confident, independent critical thinkers ready to take on the world.
+           
+            <h1 className='Title'> Welcome to My Book Shop</h1>
+    <Col xs={6}><p>Unlimited Wholesale & Retail Availability. Submit Your Manuscript Today! Hardback covers available. 100% net royalties. Personalized service. Services: paperbacks, hardbacks, ebooks, custom illustrations, worldwide distribution, one-click packages.</p>
+<p>Full-service publishing for print and/or e-books
+Hardback and paperback options available
+Fast, easy process for publishing & marketing
+Receive your free, power-packed Publishing Kit instantly:</p></Col>
 
-Contact our admissions team today to schedule a campus visit and learn about enrollment for the 2022-2023 school year.</p></Col>
 
     <Col xs={6}></Col>
   </Row>

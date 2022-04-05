@@ -4,13 +4,15 @@ const Header = () => {
     return (
         <div>
             
-            <nav className='nav'>
-                <h3 className='title'> My Book Shop</h3>
+            <nav >
+                <h1 className='title' > My Book Shop</h1>
+                <div className='nav'>
                 <a href="/">HOME</a>
                 <a href="/Reviews">REVIEWS</a>
                 <a href="/Dashboard">DASHBOARD</a>
                 <a href="/Blogs">BLOGS</a>
                 <a href="/About">ABOUT</a>
+                </div>
             </nav>
         </div>
     );

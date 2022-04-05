@@ -1,10 +1,9 @@
 .nav{
     background-color: aqua;
     display: flex;
-    text-align: center;
     justify-content: center;
-    
-    gap:20px;
+   text-align: center;
+      gap:20px;
     padding: 20px;
     text-shadow: 2px;
     font-size: large;
@@ -12,5 +11,12 @@
     margin: 20px;
 }
 .title{
-   
+    background-color: aqua;
+    padding: 20px;
+    text-shadow: 2px;
+    font-size:xx-large;
+    border-radius: 10px;
+    margin: 20px;
+    font-weight: bolder;
+    margin-bottom: 0px;
 }
