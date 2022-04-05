@@ -1,25 +1,31 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+
 
 import './Home.css'
 
 const Home = () => {
+    const navigate = useNavigate();
+    const showAllReview = () =>{
+        navigate('/Reviews');
+    }
     return (
         <div>
-            
+          
             <Container>
-            <Row>
-           
-           
+            <Row>  
             <h1 className='Title'> Welcome to My Book Shop</h1>
-    <Col xs={6}><p>Unlimited Wholesale & Retail Availability. Submit Your Manuscript Today! Hardback covers available. 100% net royalties. Personalized service. Services: paperbacks, hardbacks, ebooks, custom illustrations, worldwide distribution, one-click packages.</p>
+            <h1 className='Title'> Welcome to Our Book Shop</h1>
+    <Col xs={6}><p>Unlimited Wholesale and Retail Availability. Submit Your Manuscript Today! Hardback covers available. 100% net royalties. Personalized service. Services: paperbacks, hardbacks, ebooks, custom illustrations, worldwide distribution, one-click packages.</p>
 <p>Full-service publishing for print and/or e-books
 Hardback and paperback options available
-Fast, easy process for publishing & marketing
-Receive your free, power-packed Publishing Kit instantly:</p></Col>
+Fast, easy process for publishing and marketing
+Receive your free, power-packed Publishing Kit instantly!!!</p></Col>
 
 
-    <Col xs={6}></Col>
+    <Col xs={6}>
+    </Col>
   </Row>
             </Container>
             <Button className='btn'> Know More</Button>
@@ -79,7 +85,7 @@ Receive your free, power-packed Publishing Kit instantly:</p></Col>
  
 </div>
 </div>
-<Button > See All Reviews</Button>
+<Button onClick={showAllReview}> See All Reviews</Button>
             </div>
         </div>
     );

@@ -9,6 +9,12 @@ In the project directory, you will have:
 ### `Project Name:` My Book Shop
 ### `Project Link:` https://github.com/programming-hero-web-course-4/product-analysis-website-myewebgit
 ### `About My Projects:`
+*** In this project you will get:
+**** About a book shop.
+**** Customer Review.
+**** Sales Vs Cost and Investment Vs Revenue Chart.
+**** Bloges and much more.
+
 
 
 ### `npm start`
